@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="form.css" />
+		<title>Personal Informations</title>
+	</head>
+	<body>
+		<header>
+			<h1>User Details</h1>
+		</header>
+		<form>
+			<fieldset>
+				<legend>User Data</legend>
+				<table>
+					<!-- ad soyad  -->
+					<tr>
+						<td class="label">
+							<label for="ad-soyad">Name :</label>
+						</td>
+						<td class="input">
+							<input
+								type="text"
+								id="ad-soyad"
+								name="adSoyad"
+								required
+								placeholder="Name and Surname"
+							/>*
+						</td>
+					</tr>
+					<!-- Kullanici Adi  -->
+					<tr>
+						<td class="label">
+							<label for="user-name">Username :</label>
+						</td>
+						<td class="input">
+							<input
+								type="text"
+								id="user-name"
+								name="userName"
+								required
+							/>*
+						</td>
+					</tr>
+					<!-- email  -->
+					<tr>
+						<td class="label">
+							<label for="email">E-mail:</label>
+						</td>
+						<td class="input">
+							<input
+								type="email"
+								id="email"
+								name="email"
+								required
+								placeholder="example@mail.com"
+							/>*
+						</td>
+					</tr>
+
+					<!-- email gizle -->
+					<tr>
+						<td>
+							<label for="email-gizle">Hide (e-mail):</label>
+						</td>
+						<td class="input">
+							<input
+								type="checkbox"
+								name="emailGizle"
+								id="email-gizle"
+							/>
+						</td>
+					</tr>
+
+					<!-- Sifre  -->
+					<tr>
+						<td>
+							<label for="password">Password :</label>
+						</td>
+						<td class="input">
+							<input
+								type="password"
+								name="password"
+								id="password"
+								minlength="8"
+								required
+								placeholder="Enter password"
+							/>*
+						</td>
+					</tr>
+					<!-- Sifre Onay -->
+					<tr>
+						<td>
+							<label for="t-password">Confirm Pass. :</label>
+						</td>
+						<td class="input">
+							<input
+								type="password"
+								name="tPassword"
+								id="t-password"
+								required
+								placeholder="Enter your password again"
+							/>*
+						</td>
+					</tr>
+
+					<!-- cinsiyeti  -->
+					<tr>
+						<td>
+							<label for="gender">Gender:</label>
+						</td>
+						<td class="input">
+							<input type="radio" name="gender" id="erkek" />
+							Male
+							<input type="radio" name="gender" id="kadin" />
+							Female
+						</td>
+					</tr>
+
+					<!-- dogum tarihi -->
+
+					<tr>
+						<td>
+							<label for="date">Birth Date :</label>
+						</td>
+						<td class="input">
+							<input type="date" name="date" id="date" required />
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="input">
+							<input type="submit" value="Submit" id="button" />
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>

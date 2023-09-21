@@ -1,0 +1,58 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	background-color: #d4ffaa;
+    border-radius: 2px;
+    
+}
+.input {
+	background-color: #ffffcc;
+	padding-left: 4px;
+}
+
+label {
+	display: flex;
+	justify-content: right;
+	margin: 5px;
+}
+
+#ad-soyad,
+#email {
+	width: 240px;
+}
+
+#button {
+	width: 60px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+#button:hover {
+	background-color: #d4ffaa;
+	transition: 0.8s;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+fieldset {
+    width: fit-content;
+    border-radius: 2px;
+}
+
+legend {
+    padding: 5px;
+    color: #000000;
+   background-color: #d4ffaa;
+   border-radius: 2px;
+   border: 1px solid black;
+    
+}
